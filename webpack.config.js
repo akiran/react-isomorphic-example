@@ -4,7 +4,8 @@ var autoprefixer = require('autoprefixer-core');
 
 module.exports = {
   entry: {
-    'app.js': './client/app.jsx'
+    'react-isomorphic-example.js': './client/app.jsx'
+    // 'app.js': './client/app.jsx'
   },
   output: {
     path: path.join(__dirname, 'build'),
