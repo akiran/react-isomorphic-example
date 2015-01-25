@@ -1,6 +1,5 @@
 var React = require('react');
 var ExecutionEnvironment = require('react/lib/ExecutionEnvironment');
-var Count = require('./count');
 
 var App = React.createClass({
   getInitialState: function () {
